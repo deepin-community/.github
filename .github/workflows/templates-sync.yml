@@ -14,7 +14,7 @@ concurrency:
 jobs:
   templates-sync:
     # limit push on deepin-community/.github master branch
-    if: github.repository == 'deepin-community/.github' && github.ref == 'refs/heads/master'
+    if: github.repository == 'deepin-community/.github' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
