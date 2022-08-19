@@ -4,6 +4,6 @@
       "master"
     ],
     "src": "workflow-templates/call-clacheck.yml",
-    "dest": "linuxdeepin/dde-dock/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/icu/.github/workflows/call-clacheck.yml"
   }
 ]
