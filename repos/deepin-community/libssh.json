@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/libssh/.github/workflows/call-clacheck.yml"
+  }
+]

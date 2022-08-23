@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/pvrg-jpeg/.github/workflows/call-clacheck.yml"
+  }
+]

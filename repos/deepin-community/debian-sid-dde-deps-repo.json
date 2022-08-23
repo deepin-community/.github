@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/debian-sid-dde-deps-repo/.github/workflows/call-clacheck.yml"
+  }
+]

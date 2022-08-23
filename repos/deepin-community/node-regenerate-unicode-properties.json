@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/node-regenerate-unicode-properties/.github/workflows/call-clacheck.yml"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/gtk2-engines-murrine/.github/workflows/call-clacheck.yml"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/liblwp-protocol-https-perl/.github/workflows/call-clacheck.yml"
+  }
+]

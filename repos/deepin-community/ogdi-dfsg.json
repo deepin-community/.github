@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/ogdi-dfsg/.github/workflows/call-clacheck.yml"
+  }
+]

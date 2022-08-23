@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/libhttp-message-perl/.github/workflows/call-clacheck.yml"
+  }
+]

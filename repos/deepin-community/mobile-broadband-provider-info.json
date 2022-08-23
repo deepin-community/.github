@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/mobile-broadband-provider-info/.github/workflows/call-clacheck.yml"
+  }
+]

@@ -1,7 +1,7 @@
 [
   {
     "branches": [
-      "main"
+      "master"
     ],
     "src": "workflow-templates/call-clacheck.yml",
     "dest": "deepin-community/sig-deepin-m1/.github/workflows/call-clacheck.yml"

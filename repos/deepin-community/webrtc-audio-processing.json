@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/webrtc-audio-processing/.github/workflows/call-clacheck.yml"
+  }
+]

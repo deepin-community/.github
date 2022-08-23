@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/golang-github-hashicorp-go-sockaddr/.github/workflows/call-clacheck.yml"
+  }
+]

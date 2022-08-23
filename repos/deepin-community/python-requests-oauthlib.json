@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/python-requests-oauthlib/.github/workflows/call-clacheck.yml"
+  }
+]

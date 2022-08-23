@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/freehep-vectorgraphics/.github/workflows/call-clacheck.yml"
+  }
+]

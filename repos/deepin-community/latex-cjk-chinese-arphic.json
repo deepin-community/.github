@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/latex-cjk-chinese-arphic/.github/workflows/call-clacheck.yml"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/libio-socket-ssl-perl/.github/workflows/call-clacheck.yml"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/ruby-blade-sauce-labs-plugin/.github/workflows/call-clacheck.yml"
+  }
+]
