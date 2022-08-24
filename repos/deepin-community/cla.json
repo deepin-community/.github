@@ -1,9 +1,0 @@
-[
-  {
-    "branches": [
-      "master"
-    ],
-    "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/cla/.github/workflows/call-clacheck.yml"
-  }
-]

@@ -1,0 +1,9 @@
+[
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/papirus-icon-theme/.github/workflows/call-clacheck.yml"
+  }
+]

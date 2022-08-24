@@ -1,9 +1,0 @@
-[
-  {
-    "branches": [
-      "master"
-    ],
-    "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/dde-control-center-plugin-example/.github/workflows/call-clacheck.yml"
-  }
-]
