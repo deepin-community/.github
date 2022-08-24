@@ -72,3 +72,4 @@ jobs:
         with:
           files: "${{ steps.all-configs.outputs.ALL_CONFIGS }}"
           message: "chore: Sync by ${{ github.event.head_commit.url }}"
+          run: sleep 1s
