@@ -5,5 +5,6 @@
     ],
     "src": "workflow-templates/call-clacheck.yml",
     "dest": "deepin-community/intel-mediasdk/.github/workflows/call-clacheck.yml"
+    
   }
 ]
