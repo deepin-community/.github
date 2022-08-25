@@ -6,7 +6,7 @@ import sys
 
 '''
 
-with open(sys.argv[1],'r') as f: #将你需要更新的项目放在 need-update 文件中
+with open(sys.argv[1],'r') as f: #将你需要更新的项目放在文本中
     jsons=f.readlines()
 jsontext = '{"branches":["master"],"src":"workflow-templates/call-clacheck.yml","dest":"deepin-community/icu/.github/workflows/call-clacheck.yml"}'
 for i in jsons:

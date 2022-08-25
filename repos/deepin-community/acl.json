@@ -5,5 +5,19 @@
     ],
     "src": "workflow-templates/call-clacheck.yml",
     "dest": "deepin-community/acl/.github/workflows/call-clacheck.yml"
+  },
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/backup-to-gitlab.yml",
+    "dest": "deepin-community/acl/.github/workflows/backup-to-gitlab.yml"
+  },
+  {
+    "branches": [
+      "master"
+    ],
+    "src": "workflow-templates/backup-to-gitlab.yml",
+    "dest": "deepin-community/acl/.github/workflows/backup-to-gitlab.yml"
   }
 ]
