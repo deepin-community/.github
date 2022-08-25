@@ -20,5 +20,4 @@
     "src": "workflow-templates/backup-to-gitlab.yml",
     "dest": "deepin-community/grep/.github/workflows/backup-to-gitlab.yml"
   }
-  
 ]
