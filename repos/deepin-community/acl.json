@@ -32,6 +32,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/acl/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/acl/.github/workflows/call-chatOps.yml"
   }
 ]

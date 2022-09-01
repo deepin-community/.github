@@ -59,7 +59,7 @@ class repo_workflow:
     def add_workflow(self, workflows):
         for workflow in workflows:
             src_workflow_path = "workflow-templates/" + workflow
-            dest_workflow_path = ORG + "/" + self.repo + "/.github/workflow/" + workflow
+            dest_workflow_path = ORG + "/" + self.repo + "/.github/workflows/" + workflow
             if not os.path.exists(src_workflow_path):
                 print(workflow + " do not exists!")
                 continue

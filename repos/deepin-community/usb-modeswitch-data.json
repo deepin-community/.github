@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/usb-modeswitch-data/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/usb-modeswitch-data/.github/workflows/call-chatOps.yml"
   }
 ]

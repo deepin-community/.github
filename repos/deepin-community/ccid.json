@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/ccid/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/ccid/.github/workflows/call-chatOps.yml"
   }
 ]

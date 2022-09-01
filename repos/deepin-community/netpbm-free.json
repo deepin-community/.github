@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/netpbm-free/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/netpbm-free/.github/workflows/call-chatOps.yml"
   }
 ]

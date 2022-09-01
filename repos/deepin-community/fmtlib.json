@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/fmtlib/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/fmtlib/.github/workflows/call-chatOps.yml"
   }
 ]

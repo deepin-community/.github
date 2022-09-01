@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/blur-effect/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/blur-effect/.github/workflows/call-chatOps.yml"
   }
 ]

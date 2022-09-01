@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/golang-github-hashicorp-go-sockaddr/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/golang-github-hashicorp-go-sockaddr/.github/workflows/call-chatOps.yml"
   }
 ]
