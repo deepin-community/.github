@@ -1,0 +1,187 @@
+name: chatOps
+on:
+  workflow_call:
+    secrets:
+      APP_PRIVATE_KEY:
+        required: true
+
+env:
+  APP_ID: 229710
+  APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+
+jobs:
+  chatopt:
+    if: contains(github.event.comment.html_url, '/pull/')
+    runs-on: [ubuntu-latest]
+    steps:
+      # assign to someone
+      - name: assign
+        uses: actions/github-script@v5
+        if: startsWith(github.event.comment.body, '/assign')
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        with:
+          script: |
+            const { COMMENT_BODY } = process.env
+            const groups = COMMENT_BODY.match(/\/assign \@(\S+)/)
+            groups && await github.rest.issues.addAssignees({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              assignees: groups[1]
+            })
+      # request someone to review
+      - name: review
+        uses: actions/github-script@v5
+        if: startsWith(github.event.comment.body, '/review')
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        with:
+          script: |
+            const { COMMENT_BODY } = process.env
+            const command = COMMENT_BODY.match(/\/review (\@\w+ )+/)
+            if ( !command || !command[0] ){
+              return
+            }
+            const users = command[0].match(/\@\w+/g)
+            if( !users ){
+              return
+            }
+            await github.rest.pulls.requestReviewers({
+              pull_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              reviewers: users.map(a=>a.slice(1))
+            });
+      # !deprecated add approve label
+      - name: "approve"
+        uses: actions/github-script@v5
+        if: startsWith(github.event.comment.body, '/+1') || contains(github.event.comment.body, '/approve')
+        with:
+          script: |
+            if(context.payload.sender.id == context.payload.issue.user.id){
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: 'Permission denied'
+              })
+              return
+            }
+            await github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['approve']
+            })
+
+      # retrigger checks
+      - name: check
+        uses: actions/github-script@v5
+        if: startsWith(github.event.comment.body, '/check')
+        env:
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        with:
+          script: |
+            const { COMMENT_BODY } = process.env
+            const checkNameGroup = COMMENT_BODY.match(/\/check (\S+)/)
+
+            const pull = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+            })
+            const listResp = await github.rest.checks.listForRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: pull.data.head.sha,
+            });
+            for(const run of listResp.data.check_runs){
+              if(checkNameGroup) {
+                const input = checkNameGroup[1].startsWith("/") ? checkNameGroup[1] : '/' + checkNameGroup[1]
+                const name ='/' + run.name.replace(/ \/ /g,'/')
+                if(name.includes(input)){
+                  console.log(name, "re-check")
+                  await github.request(`POST /repos/${context.repo.owner}/${context.repo.repo}/actions/jobs/${run.id}/rerun`);
+                } else {
+                  console.log(name, "skip")
+                }
+              }else{
+                await github.request(`POST /repos/${context.repo.owner}/${context.repo.repo}/actions/jobs/${run.id}/rerun`);
+              }
+            }
+      # auto merge pull request
+      - name: install depends for load scripts
+        if: startsWith(github.event.comment.body, '/merge')
+        run: |
+          npm install @octokit/rest
+          npm install @octokit/auth-app
+      - name: Get token using github-script
+        if: startsWith(github.event.comment.body, '/merge')
+        id: get-token
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { Octokit } = require("@octokit/rest");
+            const { createAppAuth } = require("@octokit/auth-app");
+            const appOctokit = new Octokit({
+              authStrategy: createAppAuth,
+              auth: {
+                appId: process.env.APP_ID,
+                privateKey: process.env.APP_PRIVATE_KEY,
+              }
+            });
+            const app_installation = await appOctokit.rest.apps.getRepoInstallation({
+              owner: context.payload.organization.login,
+              repo: context.payload.repository.name
+            });
+            const { token } = await appOctokit.auth({
+              type: "installation",
+              installationId: app_installation.data.id
+            });
+            core.setOutput('app_token', token)
+      - name: merge
+        uses: actions/github-script@v5
+        if: startsWith(github.event.comment.body, '/merge')
+        with:
+          github-token: ${{ steps.get-token.outputs.app_token }}
+          script: |
+            if(context.payload.sender.id != context.payload.issue.user.id){
+              const permission = await github.request(`GET /repos/${context.repo.owner}/${context.repo.repo}/collaborators/${context.payload.sender.login}/permission`, {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                username: context.payload.sender.login,
+              })
+              if(!["admin","maintain","write"].includes(permission.data.permission)){
+                await github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: 'Permission denied'
+                })
+                return
+              }
+            }
+
+            const pull = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+            })
+
+            if( pull.data.mergeable_state != "clean" ){
+                await github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: `This pr cannot be merged! (status: ${pull.data.mergeable_state})`
+                })
+                return
+            }
+
+            await github.rest.pulls.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              merge_method: 'rebase'
+            });
