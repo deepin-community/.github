@@ -1,0 +1,30 @@
+[
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-chatOps.yml",
+    "dest": "deepin-community/qt6-quicktimeline/.github/workflow/call-chatOps.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-deb.yml",
+    "dest": "deepin-community/qt6-quicktimeline/.github/workflow/call-build-deb.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/qt6-quicktimeline/.github/workflow/call-clacheck.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/backup-to-gitlab.yml",
+    "dest": "deepin-community/qt6-quicktimeline/.github/workflow/backup-to-gitlab.yml"
+  }
+]

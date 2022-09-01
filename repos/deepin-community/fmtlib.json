@@ -19,5 +19,12 @@
     ],
     "src": "workflow-templates/call-build-deb.yml",
     "dest": "deepin-community/fmtlib/.github/workflows/call-build-deb.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-chatOps.yml",
+    "dest": "deepin-community/fmtlib/.github/workflow/call-chatOps.yml"
   }
 ]
