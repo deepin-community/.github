@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/golang-gopkg-jcmturner-gokrb5.v5/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/golang-gopkg-jcmturner-gokrb5.v5/.github/workflows/call-chatOps.yml"
   }
 ]

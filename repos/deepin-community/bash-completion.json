@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/bash-completion/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/bash-completion/.github/workflows/call-chatOps.yml"
   }
 ]

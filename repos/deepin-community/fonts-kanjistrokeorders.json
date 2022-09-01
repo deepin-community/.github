@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/fonts-kanjistrokeorders/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/fonts-kanjistrokeorders/.github/workflows/call-chatOps.yml"
   }
 ]

@@ -1,20 +1,13 @@
 [
   {
-    "branches": [
+    "branch": [
       "master"
     ],
-    "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/pixman/.github/workflows/call-clacheck.yml"
+    "src": "workflow-templates/call-chatOps.yml",
+    "dest": "deepin-community/pixman/.github/workflows/call-chatOps.yml"
   },
   {
-    "branches": [
-      "master"
-    ],
-    "src": "workflow-templates/backup-to-gitlab.yml",
-    "dest": "deepin-community/pixman/.github/workflows/backup-to-gitlab.yml"
-  },
-  {
-    "branches": [
+    "branch": [
       "master"
     ],
     "src": "workflow-templates/call-build-deb.yml",
@@ -24,7 +17,14 @@
     "branch": [
       "master"
     ],
-    "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/pixman/.github/workflow/call-chatOps.yml"
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/pixman/.github/workflows/call-clacheck.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/backup-to-gitlab.yml",
+    "dest": "deepin-community/pixman/.github/workflows/backup-to-gitlab.yml"
   }
 ]

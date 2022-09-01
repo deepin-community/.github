@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/adwaita-icon-theme/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/adwaita-icon-theme/.github/workflows/call-chatOps.yml"
   }
 ]

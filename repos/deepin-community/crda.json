@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/crda/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/crda/.github/workflows/call-chatOps.yml"
   }
 ]

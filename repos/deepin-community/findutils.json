@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/findutils/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/findutils/.github/workflows/call-chatOps.yml"
   }
 ]

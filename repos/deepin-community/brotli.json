@@ -25,6 +25,6 @@
       "master"
     ],
     "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/brotli/.github/workflow/call-chatOps.yml"
+    "dest": "deepin-community/brotli/.github/workflows/call-chatOps.yml"
   }
 ]
