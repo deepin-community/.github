@@ -1,0 +1,40 @@
+name: auto sync
+
+on:
+  cron: "0 18 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    step:
+
+      - uses: action/checkout@v2
+        with:
+          repository: deepin-community/.github
+          path: deepin-community.github
+
+      - name: init python environment
+        run: |
+          apt install python3-requests
+
+      # Install ssh key and known_hosts
+      - name: Git config
+        env:
+          SSH_KEY: ${{secrets.SYNC_SSH_KEY}}
+          KNOWN_HOSTS: ${{secrets.SYNC_SSH_KNOWN_HOSTS}}
+        run: |
+          mkdir ~/.ssh
+          echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          echo "$SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          git config --global user.name deepin-admin-bot
+          git config --global user.email deepin-admin-bot@deepin.org
+
+      - name: sync workflow to all public repo
+        run: |
+          cd $GITHUB_WORKSPACE/deepin-community.github
+
+          python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml
+
+          git add . && git commit -m "feat: sync workflow to all public repo" && git push
