@@ -1,13 +1,14 @@
 name: auto sync
 
 on:
-  cron: "0 18 * * *"
+  schedule:
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    step:
+    steps:
 
       - uses: action/checkout@v2
         with:
