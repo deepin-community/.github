@@ -32,8 +32,8 @@ jobs:
           echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
           echo "$SSH_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          git config --global user.name deepin-admin-bot
-          git config --global user.email deepin-admin-bot@deepin.org
+          git config --global user.name deepin-community-bot
+          git config --global user.email deepin-community-bot@deepin.org
 
       - name: sync workflow to all public repo
         run: |
