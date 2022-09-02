@@ -17,7 +17,7 @@ jobs:
 
       - name: init python environment
         run: |
-          apt install python3-requests
+          sudo apt install python3-requests
 
       # Install ssh key and known_hosts
       - name: Git config
