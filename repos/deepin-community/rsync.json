@@ -12,5 +12,19 @@
     ],
     "src": "workflow-templates/backup-to-gitlab.yml",
     "dest": "deepin-community/rsync/.github/workflows/backup-to-gitlab.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-chatOps.yml",
+    "dest": "deepin-community/rsync/.github/workflows/call-chatOps.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-deb.yml",
+    "dest": "deepin-community/rsync/.github/workflows/call-build-deb.yml"
   }
 ]
