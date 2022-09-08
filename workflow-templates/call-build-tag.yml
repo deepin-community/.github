@@ -1,4 +1,3 @@
-# daily trigger inner jenkins to build iso
 name: tag build
 on:
   push:
