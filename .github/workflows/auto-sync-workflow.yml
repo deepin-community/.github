@@ -39,6 +39,6 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/deepin-community.github
 
-          python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml
+          python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml call-build-tag.yml
 
           git add . && git commit -m "feat: sync workflow to all public repo" && git push

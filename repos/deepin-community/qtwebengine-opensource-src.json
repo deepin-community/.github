@@ -26,5 +26,12 @@
     ],
     "src": "workflow-templates/backup-to-gitlab.yml",
     "dest": "deepin-community/qtwebengine-opensource-src/.github/workflows/backup-to-gitlab.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-tag.yml",
+    "dest": "deepin-community/qtwebengine-opensource-src/.github/workflows/call-build-tag.yml"
   }
 ]

@@ -26,5 +26,12 @@
     ],
     "src": "workflow-templates/call-build-deb.yml",
     "dest": "deepin-community/plasma-framework/.github/workflows/call-build-deb.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-tag.yml",
+    "dest": "deepin-community/plasma-framework/.github/workflows/call-build-tag.yml"
   }
 ]
