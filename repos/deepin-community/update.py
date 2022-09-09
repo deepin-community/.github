@@ -74,7 +74,6 @@ class repo_workflow:
                 print(workflow + " has already added in this repo: " + self.repo)
     
     def write_workflow(self):
-        print(id(self.added_workflow))
         with open("repos/" + ORG + "/" + self.repo + ".json", "w+") as f:
             f.write(json.dumps(self.added_workflow, indent=2, separators=(',', ': ')))
 

@@ -26,5 +26,12 @@
     ],
     "src": "workflow-templates/call-chatOps.yml",
     "dest": "deepin-community/fritzing/.github/workflows/call-chatOps.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-tag.yml",
+    "dest": "deepin-community/fritzing/.github/workflows/call-build-tag.yml"
   }
 ]
