@@ -75,3 +75,9 @@ jobs:
         with:
           github_token: ${{ steps.get-token.outputs.app_token }}
           directory: ${{ github.workspace }}/deepin-community.github
+
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ steps.get-token.outputs.app_token }}
+          event-type: sync
