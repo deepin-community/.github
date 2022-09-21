@@ -50,7 +50,7 @@ jobs:
           echo "$SSH_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           git config --global user.name deepin-community-bot
-          git config --global user.email deepin-community-bot@deepin.org
+          git config --global user.email deepin-community-bot@blumia.net
 
       - name: Sync changed configs
         uses: linuxdeepin/action-sync@main
