@@ -6,6 +6,8 @@ on:
       - "repos/**.json"
       - "workflow-templates/**.yml"
   workflow_dispatch:
+  repository_dispatch:
+    types: [sync]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
