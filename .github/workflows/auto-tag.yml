@@ -1,0 +1,81 @@
+name: auto tag
+
+on:
+  workflow_call:
+
+jobs:
+  auto_tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      - name: get changelog version
+        id: get-version
+        run: |
+          echo "::set-output name=TAG::$(LC_ALL=C dpkg-parsechangelog -S Version)"
+
+      - name: check tag exsits
+        id: test-tag-exists
+        run: |
+          git fetch --tags
+          echo "::set-output name=EXISTS::$(if [ $(git tag -l ${{ steps.get-version.outputs.TAG }}) ]; then echo yes; else echo no; fi)"
+
+      - name: create comment
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const BOT_NAME = "TAG Bot"
+            const COMMENT_HEAD = "**" + BOT_NAME + "**\n\n"
+            const COMMENT_BODY = "TAG: ${{ steps.get-version.outputs.TAG }}\nEXISTED: ${{ steps.test-tag-exists.outputs.EXISTS }}"
+            const response = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number
+            })
+            const reg = new RegExp("\\*+" + BOT_NAME + "\\*+")
+
+            tagBotComment= response.data.find(comment => comment.body.match(reg))
+
+            if (tagBotComment) {
+              await github.rest.issues.updateComment({
+                  comment_id: tagBotComment.id,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: COMMENT_HEAD + COMMENT_BODY
+              })
+            } else {
+              await github.rest.issues.createComment({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: COMMENT_HEAD + COMMENT_BODY
+              })
+            }
+            if ("${{ steps.test-tag-exists.outputs.EXISTS }}" === "yes"){
+              core.setFailed("Tag: ${{ steps.get-version.outputs.TAG }} exists!")
+            }
+
+      - name: Create tag
+        if: github.event.pull_request.merged
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const {data} = await github.rest.git.createTag({
+              repo: context.repo.repo,
+              owner: context.repo.owner,
+              message: "Release " + context.repo.repo + " ${{ steps.get-version.outputs.TAG }}",
+              type: 'commit',
+              object: context.sha,
+              tag: "${{ steps.get-version.outputs.TAG }}"
+            })
+
+            await github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{ steps.get-version.outputs.TAG }}',
+              sha: data.sha
+            })
