@@ -37,7 +37,8 @@ excludeRepo = [
     "dtkcore",
     'actions-database',
     "arch-dde-repo",
-    "screen-usage-module"
+    "screen-usage-module",
+    "Repository-Integration"
 ]
 
 api_url = "https://api.github.com/orgs/{ORG}/repos".format(ORG=ORG)
