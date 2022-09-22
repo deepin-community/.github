@@ -40,7 +40,7 @@ jobs:
 
           python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml call-build-tag.yml
 
-          git add . && git commit -m "chore: sync workflow to all public repo" && git push || echo '::set-output name=CHANGED::"NO"'
+          git add . && git commit -m "chore: sync workflow to all public repo" && git push || echo '::set-output name=CHANGED::$(echo NO)'
 
       - name: install depends for load scripts
         run: |
