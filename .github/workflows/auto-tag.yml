@@ -2,6 +2,9 @@ name: auto tag
 
 on:
   workflow_call:
+    secrets:
+      APP_PRIVATE_KEY:
+        required: true
 
 env:
   APP_ID: 229710
