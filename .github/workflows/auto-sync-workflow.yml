@@ -13,12 +13,6 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-
-      - uses: actions/checkout@v2
-        with:
-          repository: deepin-community/.github
-          path: deepin-community.github
-
       - name: init python environment
         run: |
           sudo apt-get install python3-requests
@@ -71,8 +65,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.get-token.outputs.app_token }}
         run: |
-          cd $GITHUB_WORKSPACE/deepin-community.github
-
+          git clone git@github.com:deepin-community/.github.git deepin-community.github
+          cd deepin-community.github
           python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml call-build-tag.yml
-
           git add . && git commit -m "chore: sync workflow to all public repo" && git push || exit 0
