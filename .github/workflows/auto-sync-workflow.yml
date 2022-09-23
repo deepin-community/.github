@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
 
 env:
-  GITHUB_TOKEN: ${{ github.token }}
   APP_ID: 229710
   APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
 
@@ -22,25 +21,7 @@ jobs:
 
       - name: init python environment
         run: |
-          sudo apt install python3-requests
-
-      # Install ssh key and known_hosts
-      - name: Git config
-        env:
-          SSH_KEY: ${{secrets.SYNC_SSH_KEY}}
-          KNOWN_HOSTS: ${{secrets.SYNC_SSH_KNOWN_HOSTS}}
-        run: |
-          git config --global user.name deepin-community-bot
-          git config --global user.email deepin-community-bot@blumia.net
-
-      - name: sync workflow to all public repo
-        id: get-changed
-        run: |
-          cd $GITHUB_WORKSPACE/deepin-community.github
-
-          python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml call-build-tag.yml
-
-          git add . && git commit -m "chore: sync workflow to all public repo" && git push || echo "::set-output name=CHANGED::$(echo NO)"
+          sudo apt-get install python3-requests
 
       - name: install depends for load scripts
         run: |
@@ -48,7 +29,6 @@ jobs:
           npm install @octokit/auth-app
 
       - name: Get token using github-script
-        if: ${{ steps.get-changed.outputs.CHANGED != 'NO' }}
         id: get-token
         uses: actions/github-script@v6
         with:
@@ -72,9 +52,27 @@ jobs:
             });
             core.setOutput('app_token', token)
 
-      - name: Repository Dispatch
-        if: ${{ steps.get-changed.outputs.CHANGED != 'NO' }}
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ steps.get-token.outputs.app_token }}
-          event-type: sync
+      # Install ssh key and known_hosts
+      - name: Git config
+        env:
+          SSH_KEY: ${{secrets.SYNC_SSH_KEY}}
+          KNOWN_HOSTS: ${{secrets.SYNC_SSH_KNOWN_HOSTS}}
+        run: |
+          mkdir ~/.ssh
+          echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          echo "$SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+          git config --global user.name deepin-community-bot
+          git config --global user.email deepin-community-bot@blumia.net
+
+      - name: sync workflow to all public repo
+        id: get-changed
+        env:
+          GITHUB_TOKEN: ${{ steps.get-token.outputs.app_token }}
+        run: |
+          cd $GITHUB_WORKSPACE/deepin-community.github
+
+          python3 repos/deepin-community/update.py call-chatOps.yml call-build-deb.yml call-clacheck.yml backup-to-gitlab.yml call-build-tag.yml
+
+          git add . && git commit -m "chore: sync workflow to all public repo" && git push || exit 0

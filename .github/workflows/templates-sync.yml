@@ -6,8 +6,6 @@ on:
       - "repos/**.json"
       - "workflow-templates/**.yml"
   workflow_dispatch:
-  repository_dispatch:
-    types: [sync]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -63,14 +61,14 @@ jobs:
 
       - name: Get all configs
         id: all-configs
-        if: steps.changed-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch'
+        if: steps.changed-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           all_configs=`find repos -type f | grep json | xargs`
           echo all configs $all_configs
           echo "::set-output name=ALL_CONFIGS::$all_configs"
       - name: Sync all files
         uses: linuxdeepin/action-sync@main
-        if: steps.changed-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch' || github.event_name == 'repository_dispatch'
+        if: steps.changed-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
         with:
           files: "${{ steps.all-configs.outputs.ALL_CONFIGS }}"
           message: "chore: Sync by ${{ github.event.head_commit.url }}"
