@@ -51,6 +51,8 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           git config --global user.name deepin-community-bot
           git config --global user.email deepin-community-bot@blumia.net
+          git config --global filter.lfs.smudge "git-lfs smudge --skip -- %f"
+          git config --global filter.lfs.process "git-lfs filter-process --skip"
 
       - name: Sync changed configs
         uses: linuxdeepin/action-sync@main
