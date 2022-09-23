@@ -73,6 +73,13 @@ jobs:
           npm install @octokit/rest
           npm install @octokit/auth-app
 
+      - name: get email
+        if: github.event.pull_request.merged
+        id: get-email
+        uses: evvanErb/get-github-email-by-username-action@v1.25
+        with:
+          github-username: '${{ github.event.pull_request.user.login }}'
+
       - name: Get token using github-script
         id: get-token
         if: github.event.pull_request.merged
@@ -110,7 +117,15 @@ jobs:
               message: "Release " + context.repo.repo + " ${{ steps.get-version.outputs.TAG }}",
               type: 'commit',
               object: context.sha,
-              tag: "${{ steps.get-version.outputs.TAG }}"
+              tag: "${{ steps.get-version.outputs.TAG }}",
+              tagger: {
+                name: "${{ github.event.pull_request.user.login }}",
+                email: "${{ steps.get-email.outputs.email }}",
+                date: (() => {
+                  const date = new Date();
+                  return date.toISOString();
+                })(),
+              },
             })
 
             await github.rest.git.createRef({
