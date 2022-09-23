@@ -3,6 +3,10 @@ name: auto tag
 on:
   workflow_call:
 
+env:
+  APP_ID: 229710
+  APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+
 jobs:
   auto_tag:
     runs-on: ubuntu-latest
@@ -16,6 +20,7 @@ jobs:
         id: get-version
         run: |
           echo "::set-output name=TAG::$(LC_ALL=C dpkg-parsechangelog -S Version)"
+          echo "::set-output name=DISTRIBUTION::$(LC_ALL=C dpkg-parsechangelog -S Distribution)"
 
       - name: check tag exsits
         id: test-tag-exists
