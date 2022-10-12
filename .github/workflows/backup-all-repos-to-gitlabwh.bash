@@ -1,12 +1,15 @@
 #!/bin/bash
 owner=$1
 token=$2
-page=$3
+page_end=$3
 echo "::group::Get Repo List"
 while true;do
 	let page++
 	sleep 1
 	wget "https://api.github.com/users/$owner/repos?per_page=100&page=$page" -O repos_$page.json
+	if [ $page -eq $page_end ] ; then
+	break
+	fi
 	n=`cat repos_$page.json | jq '.[]|.full_name' | wc -l`
 	echo $n
 	if [ "x$n" != "x100" ]; then
