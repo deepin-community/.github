@@ -9,7 +9,7 @@ jobs:
       strategy:
         max-parallel: 1
         matrix: 
-          version: [5, 10, 15, 20, 25, 30]
+          version: [5, 10, 15, 20, 25, 30, 35]
           os: [ubuntu-22.04]
       if: github.repository_owner == 'deepin-community'
       runs-on: ${{ matrix.os }}
