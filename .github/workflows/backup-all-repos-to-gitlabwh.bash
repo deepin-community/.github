@@ -1,7 +1,8 @@
 #!/bin/bash
 owner=$1
 token=$2
-page_end=$3
+page=$3
+page_end=`expr $page + 5` 
 echo "::group::Get Repo List"
 while true;do
 	let page++
