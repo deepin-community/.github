@@ -1,0 +1,37 @@
+[
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-chatOps.yml",
+    "dest": "deepin-community/node-optimist/.github/workflows/call-chatOps.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-deb.yml",
+    "dest": "deepin-community/node-optimist/.github/workflows/call-build-deb.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-clacheck.yml",
+    "dest": "deepin-community/node-optimist/.github/workflows/call-clacheck.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/backup-to-gitlab.yml",
+    "dest": "deepin-community/node-optimist/.github/workflows/backup-to-gitlab.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "workflow-templates/call-build-tag.yml",
+    "dest": "deepin-community/node-optimist/.github/workflows/call-build-tag.yml"
+  }
+]
