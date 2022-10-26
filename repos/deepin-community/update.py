@@ -38,7 +38,10 @@ excludeRepo = [
     'actions-database',
     "arch-dde-repo",
     "screen-usage-module",
-    "Repository-Integration"
+    "Repository-Integration",
+    "deepin-riscv-board"
+
+
 ]
 
 api_url = "https://api.github.com/orgs/{ORG}/repos".format(ORG=ORG)
