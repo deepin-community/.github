@@ -10,13 +10,6 @@
     "branch": [
       "master"
     ],
-    "src": "workflow-templates/call-build-deb.yml",
-    "dest": "deepin-community/coding-quarter/.github/workflows/call-build-deb.yml"
-  },
-  {
-    "branch": [
-      "master"
-    ],
     "src": "workflow-templates/call-clacheck.yml",
     "dest": "deepin-community/coding-quarter/.github/workflows/call-clacheck.yml"
   },
