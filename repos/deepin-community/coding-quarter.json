@@ -3,13 +3,6 @@
     "branch": [
       "master"
     ],
-    "src": "workflow-templates/call-chatOps.yml",
-    "dest": "deepin-community/coding-quarter/.github/workflows/call-chatOps.yml"
-  },
-  {
-    "branch": [
-      "master"
-    ],
     "src": "workflow-templates/call-clacheck.yml",
     "dest": "deepin-community/coding-quarter/.github/workflows/call-clacheck.yml"
   },
@@ -19,19 +12,5 @@
     ],
     "src": "workflow-templates/backup-to-gitlab.yml",
     "dest": "deepin-community/coding-quarter/.github/workflows/backup-to-gitlab.yml"
-  },
-  {
-    "branch": [
-      "master"
-    ],
-    "src": "workflow-templates/call-build-tag.yml",
-    "dest": "deepin-community/coding-quarter/.github/workflows/call-build-tag.yml"
-  },
-  {
-    "branch": [
-      "master"
-    ],
-    "src": "workflow-templates/call-build-deb.yml",
-    "dest": "deepin-community/coding-quarter/.github/workflows/call-build-deb.yml"
   }
 ]
