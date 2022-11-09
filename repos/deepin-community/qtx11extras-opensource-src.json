@@ -33,5 +33,12 @@
     ],
     "src": "workflow-templates/call-build-tag.yml",
     "dest": "deepin-community/qtx11extras-opensource-src/.github/workflows/call-build-tag.yml"
+  },
+  {
+    "branch": [
+      "master"
+    ],
+    "src": "issue-templates/qt-bug-report.yml",
+    "dest": "deepin-community/qtx11extras-opensource-src/.github/ISSUE_TEMPLATE/qt-bug-report.yml"
   }
 ]
