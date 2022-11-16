@@ -22,7 +22,7 @@ jobs:
       - name: get changelog version
         id: get-version
         run: |
-          echo "::set-output name=TAG::$(LC_ALL=C dpkg-parsechangelog -S Version | sed "s/:/%/g" | sed "s/~/_/g")"
+          echo "::set-output name=TAG::$(LC_ALL=C dpkg-parsechangelog -S Version | sed 's/:/%/g' | sed 's/~/_/g')"
           echo "::set-output name=DISTRIBUTION::$(LC_ALL=C dpkg-parsechangelog -S Distribution)"
 
       - name: check tag exsits
