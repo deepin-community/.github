@@ -3,7 +3,7 @@
     "branches": [
       "master"
     ],
-    "deleteList": [
+    "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
     "src": "workflow-templates/call-clacheck.yml",
