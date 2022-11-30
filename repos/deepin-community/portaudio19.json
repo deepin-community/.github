@@ -18,7 +18,9 @@
       "master"
     ],
     "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/portaudio19/.github/workflows/call-clacheck.yml"
+    "deletelist": [
+      ".github/workflows/call-clacheck.yml"
+    ]
   },
   {
     "branch": [

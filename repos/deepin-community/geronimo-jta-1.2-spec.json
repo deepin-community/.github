@@ -18,7 +18,9 @@
       "master"
     ],
     "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/geronimo-jta-1.2-spec/.github/workflows/call-clacheck.yml"
+    "deletelist": [
+      ".github/workflows/call-clacheck.yml"
+    ]
   },
   {
     "branch": [

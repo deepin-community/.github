@@ -6,8 +6,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/zssh/.github/workflows/call-clacheck.yml"
+    "src": "workflow-templates/call-clacheck.yml"
   },
   {
     "branches": [
