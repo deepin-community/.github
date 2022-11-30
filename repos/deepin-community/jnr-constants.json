@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/r-constant/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jnr-constants/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

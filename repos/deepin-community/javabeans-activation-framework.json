@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/avabeans-activation-framework/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/javabeans-activation-framework/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

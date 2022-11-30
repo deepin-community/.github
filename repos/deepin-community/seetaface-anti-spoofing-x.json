@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eetaface-anti-spoofing-x/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/seetaface-anti-spoofing-x/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

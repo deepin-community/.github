@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/umbrell/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/umbrello/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

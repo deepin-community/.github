@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/wpebackend-fd/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/wpebackend-fdo/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/etwork-manager-l2tp/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/network-manager-l2tp/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

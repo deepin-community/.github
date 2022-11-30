@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/dvd-rw-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/dvd-rw-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

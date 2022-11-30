@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-text-encoding/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-text-encoding/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

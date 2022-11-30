@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/lm-sensor/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/lm-sensors/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/equinox-bundle/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/equinox-bundles/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

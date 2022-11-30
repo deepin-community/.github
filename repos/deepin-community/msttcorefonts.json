@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/msttcorefont/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/msttcorefonts/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

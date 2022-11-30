@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/apd-glib/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/snapd-glib/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

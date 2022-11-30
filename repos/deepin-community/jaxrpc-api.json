@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/axrpc-api/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jaxrpc-api/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

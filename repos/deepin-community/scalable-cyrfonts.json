@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/calable-cyrfont/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/scalable-cyrfonts/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/dropwizard-metric/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/dropwizard-metrics/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

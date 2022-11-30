@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/etcat-openbsd/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/netcat-openbsd/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

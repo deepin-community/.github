@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fonts-kanjistrokeorder/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fonts-kanjistrokeorders/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

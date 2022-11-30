@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-md5/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-md5.js/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/caml-migrate-parsetree/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ocaml-migrate-parsetree/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

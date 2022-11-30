@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libvoikk/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libvoikko/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

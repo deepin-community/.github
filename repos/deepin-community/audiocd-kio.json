@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/audiocd-ki/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/audiocd-kio/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

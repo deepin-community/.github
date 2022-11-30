@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/asn1crypt/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/asn1crypto/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pr/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/proj/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

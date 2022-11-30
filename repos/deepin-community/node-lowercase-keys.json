@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-lowercase-key/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-lowercase-keys/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

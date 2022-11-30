@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-golang-x-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-golang-x-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

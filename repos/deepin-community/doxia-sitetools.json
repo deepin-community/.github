@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/doxia-sitetool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/doxia-sitetools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

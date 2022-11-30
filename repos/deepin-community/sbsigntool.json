@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/bsigntool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sbsigntool/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

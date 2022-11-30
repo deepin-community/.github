@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-currently-unhandled/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-currently-unhandled/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

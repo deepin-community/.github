@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-regenerator-transform/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-regenerator-transform/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

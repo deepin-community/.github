@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/python-nest-asynci/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/python-nest-asyncio/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

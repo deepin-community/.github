@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/cinnamon-settings-daem/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/cinnamon-settings-daemon/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

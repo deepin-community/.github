@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/autilus-share/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/nautilus-share/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

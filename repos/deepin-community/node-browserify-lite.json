@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-browserify-lite/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-browserify-lite/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

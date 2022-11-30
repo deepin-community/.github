@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/mscompre/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/mscompress/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

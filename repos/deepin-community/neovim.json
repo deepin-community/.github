@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eovim/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/neovim/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

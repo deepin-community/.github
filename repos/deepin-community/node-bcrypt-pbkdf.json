@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-bcrypt-pbkdf/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-bcrypt-pbkdf/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eetaface-open-role-z/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/seetaface-open-role-zoo/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

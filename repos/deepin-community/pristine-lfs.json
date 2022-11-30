@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pristine-lf/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pristine-lfs/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

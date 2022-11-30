@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libjs-jquery-hotkey/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libjs-jquery-hotkeys/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

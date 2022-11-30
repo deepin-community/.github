@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-github-beorn7-perk/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-github-beorn7-perks/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

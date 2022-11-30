@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ttf-ancient-font/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ttf-ancient-fonts/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

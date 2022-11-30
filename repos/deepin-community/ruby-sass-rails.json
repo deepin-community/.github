@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-sass-rail/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-sass-rails/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

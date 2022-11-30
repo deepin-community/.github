@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-ansi-alig/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-ansi-align/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

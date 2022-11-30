@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pytest-regressi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pytest-regressions/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

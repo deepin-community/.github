@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pirv-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/spirv-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

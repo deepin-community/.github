@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-sellside-emitter/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-sellside-emitter/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

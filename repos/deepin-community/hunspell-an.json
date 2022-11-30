@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/hunspell-a/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/hunspell-an/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

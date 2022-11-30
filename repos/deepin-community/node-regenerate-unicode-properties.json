@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-regenerate-unicode-propertie/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-regenerate-unicode-properties/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

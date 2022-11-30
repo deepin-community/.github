@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pice-gtk/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/spice-gtk/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

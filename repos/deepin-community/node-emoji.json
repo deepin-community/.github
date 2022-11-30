@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-emoji/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-emoji/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

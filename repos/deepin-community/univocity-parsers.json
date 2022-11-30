@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/univocity-parser/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/univocity-parsers/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

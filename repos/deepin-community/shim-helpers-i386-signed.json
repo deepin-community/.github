@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/him-helpers-i386-signed/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/shim-helpers-i386-signed/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

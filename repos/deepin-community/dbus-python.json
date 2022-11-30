@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/dbus-pyth/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/dbus-python/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

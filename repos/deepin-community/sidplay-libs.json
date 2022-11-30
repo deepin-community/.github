@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/idplay-lib/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sidplay-libs/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

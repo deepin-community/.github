@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/isu-plexu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sisu-plexus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

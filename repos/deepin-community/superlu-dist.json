@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/uperlu-dist/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/superlu-dist/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

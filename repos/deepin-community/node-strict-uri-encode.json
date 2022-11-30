@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-strict-uri-encode/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-strict-uri-encode/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

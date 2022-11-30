@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ldp-docbook-stylesheet/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ldp-docbook-stylesheets/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

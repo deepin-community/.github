@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/python-booleanoperati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/python-booleanoperations/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

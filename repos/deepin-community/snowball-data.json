@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/wball-data/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/snowball-data/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

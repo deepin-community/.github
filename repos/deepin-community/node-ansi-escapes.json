@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-ansi-escape/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-ansi-escapes/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

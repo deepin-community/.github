@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pidgi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pidgin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

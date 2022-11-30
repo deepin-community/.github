@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/quashfs-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/squashfs-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

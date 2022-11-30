@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-serialize-javascript/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-serialize-javascript/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

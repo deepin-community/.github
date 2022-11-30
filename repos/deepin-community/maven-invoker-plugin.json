@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/maven-invoker-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/maven-invoker-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

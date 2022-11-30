@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libpcreplusplu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libpcreplusplus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

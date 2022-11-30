@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/htool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/shtool/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

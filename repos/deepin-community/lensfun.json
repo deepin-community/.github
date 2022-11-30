@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/lensfu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/lensfun/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

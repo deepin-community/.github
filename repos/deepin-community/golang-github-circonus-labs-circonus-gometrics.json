@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-github-circonus-labs-circonus-gometric/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-github-circonus-labs-circonus-gometrics/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

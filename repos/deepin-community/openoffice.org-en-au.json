@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penoffice.org-en-au/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openoffice.org-en-au/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

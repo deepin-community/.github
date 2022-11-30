@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libreoffice-dictionarie/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libreoffice-dictionaries/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

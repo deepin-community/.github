@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/phinxcontrib-svg2pdfconverter/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sphinxcontrib-svg2pdfconverter/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-websocket-extensi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-websocket-extensions/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

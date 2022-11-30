@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-rollup-plugin-node-polyfill/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-rollup-plugin-node-polyfills/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

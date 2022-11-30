@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-has-symbol-support-x/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-has-symbol-support-x/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

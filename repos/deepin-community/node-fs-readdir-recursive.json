@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-fs-readdir-recursive/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-fs-readdir-recursive/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/maven-common-artifact-filter/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/maven-common-artifact-filters/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

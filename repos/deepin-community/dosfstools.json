@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/dosfstool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/dosfstools/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

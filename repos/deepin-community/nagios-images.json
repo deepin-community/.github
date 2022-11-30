@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/agios-image/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/nagios-images/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

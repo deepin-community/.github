@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/xmlgraphics-comm/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/xmlgraphics-commons/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

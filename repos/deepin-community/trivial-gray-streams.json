@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/trivial-gray-stream/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/trivial-gray-streams/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

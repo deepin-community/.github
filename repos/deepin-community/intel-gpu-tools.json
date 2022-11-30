@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/intel-gpu-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/intel-gpu-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-github-opentracing-opentracing-g/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-github-opentracing-opentracing-go/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

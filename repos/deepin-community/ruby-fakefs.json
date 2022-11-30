@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-fakef/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-fakefs/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

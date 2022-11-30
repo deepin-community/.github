@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-eslint-visitor-key/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-eslint-visitor-keys/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

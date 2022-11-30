@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/mobile-broadband-provider-inf/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/mobile-broadband-provider-info/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

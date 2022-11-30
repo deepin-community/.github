@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-ebnf-parser/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-ebnf-parser/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

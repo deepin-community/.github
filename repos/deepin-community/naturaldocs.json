@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/aturaldoc/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/naturaldocs/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

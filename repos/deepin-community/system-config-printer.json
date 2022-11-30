@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ystem-config-printer/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/system-config-printer/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

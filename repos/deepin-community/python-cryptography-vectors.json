@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/python-cryptography-vector/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/python-cryptography-vectors/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

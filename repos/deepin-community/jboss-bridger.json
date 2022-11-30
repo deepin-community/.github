@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/boss-bridger/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jboss-bridger/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

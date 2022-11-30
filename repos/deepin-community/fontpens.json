@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fontpe/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fontpens/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

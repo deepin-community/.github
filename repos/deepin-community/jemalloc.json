@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/emalloc/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jemalloc/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

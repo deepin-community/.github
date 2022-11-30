@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/caml-fpath/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ocaml-fpath/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

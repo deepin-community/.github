@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-semigroupoid/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-semigroupoids/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-remove-trailing-separator/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-remove-trailing-separator/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

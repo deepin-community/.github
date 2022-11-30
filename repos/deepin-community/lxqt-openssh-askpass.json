@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/lxqt-openssh-askpa/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/lxqt-openssh-askpass/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

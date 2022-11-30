@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pencore-amr/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/opencore-amr/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

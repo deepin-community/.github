@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/kimageformat/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/kimageformats/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

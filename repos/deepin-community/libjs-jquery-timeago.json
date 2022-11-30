@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libjs-jquery-timeag/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libjs-jquery-timeago/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

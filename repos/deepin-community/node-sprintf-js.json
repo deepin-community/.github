@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-sprintf-/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-sprintf-js/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

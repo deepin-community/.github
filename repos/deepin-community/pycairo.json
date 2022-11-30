@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pycair/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pycairo/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ensible-util/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sensible-utils/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

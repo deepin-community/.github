@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/rust-cbindge/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/rust-cbindgen/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

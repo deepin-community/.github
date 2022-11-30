@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/mniorb-dfsg/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/omniorb-dfsg/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-unicode-canonical-property-names-ecmascript/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-unicode-canonical-property-names-ecmascript/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

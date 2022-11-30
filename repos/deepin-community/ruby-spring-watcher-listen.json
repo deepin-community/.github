@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-spring-watcher-liste/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-spring-watcher-listen/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

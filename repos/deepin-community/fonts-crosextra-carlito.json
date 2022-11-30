@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fonts-crosextra-carlit/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fonts-crosextra-carlito/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

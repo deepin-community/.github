@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-chasingbottom/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-chasingbottoms/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

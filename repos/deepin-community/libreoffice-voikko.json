@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libreoffice-voikk/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libreoffice-voikko/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/biometric-authenticati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/biometric-authentication/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

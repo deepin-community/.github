@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/munge-maven-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/munge-maven-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-pandoc-type/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-pandoc-types/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/xmlbeans-maven-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/xmlbeans-maven-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

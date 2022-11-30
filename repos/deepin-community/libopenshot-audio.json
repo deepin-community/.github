@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libopenshot-audi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libopenshot-audio/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

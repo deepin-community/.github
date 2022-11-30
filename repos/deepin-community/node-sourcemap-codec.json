@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-sourcemap-codec/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-sourcemap-codec/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

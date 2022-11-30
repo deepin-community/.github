@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/cinnamon-translati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/cinnamon-translations/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

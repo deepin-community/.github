@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/lua-dk/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/lua-dkjson/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

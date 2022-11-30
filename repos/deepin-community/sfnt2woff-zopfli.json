@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fnt2woff-zopfli/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sfnt2woff-zopfli/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/akonadi-contact/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/akonadi-contacts/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

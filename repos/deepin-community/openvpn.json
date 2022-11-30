@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penvp/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openvpn/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

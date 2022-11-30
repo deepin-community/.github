@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/phinx-paramlink/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sphinx-paramlinks/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

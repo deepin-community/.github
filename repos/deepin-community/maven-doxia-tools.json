@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/maven-doxia-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/maven-doxia-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

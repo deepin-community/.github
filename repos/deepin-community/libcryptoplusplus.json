@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libcryptoplusplu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libcryptoplusplus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-gauge/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-gauge/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/cplib-endia/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ocplib-endian/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

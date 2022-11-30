@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ack-audio-connection-kit/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jack-audio-connection-kit/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

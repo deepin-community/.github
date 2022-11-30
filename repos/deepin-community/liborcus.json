@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/liborcu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/liborcus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

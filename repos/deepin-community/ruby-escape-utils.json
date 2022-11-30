@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-escape-util/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-escape-utils/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

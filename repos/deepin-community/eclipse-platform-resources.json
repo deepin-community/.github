@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eclipse-platform-resource/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/eclipse-platform-resources/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

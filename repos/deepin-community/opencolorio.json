@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pencolori/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/opencolorio/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

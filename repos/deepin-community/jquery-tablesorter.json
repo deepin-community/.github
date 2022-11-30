@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/query-tablesorter/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jquery-tablesorter/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

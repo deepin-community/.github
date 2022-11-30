@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/audaciou/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/audacious/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

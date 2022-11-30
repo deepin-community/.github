@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/gi-foundation-ee/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/osgi-foundation-ee/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [
