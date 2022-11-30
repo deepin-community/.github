@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-aproba/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-aproba/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

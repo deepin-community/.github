@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penbsd-inetd/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openbsd-inetd/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/exfat-util/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/exfat-utils/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

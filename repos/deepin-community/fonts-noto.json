@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fonts-not/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fonts-noto/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

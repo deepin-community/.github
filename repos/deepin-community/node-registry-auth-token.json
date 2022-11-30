@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-registry-auth-toke/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-registry-auth-token/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

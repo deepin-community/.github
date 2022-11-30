@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-promise-inflight/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-promise-inflight/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

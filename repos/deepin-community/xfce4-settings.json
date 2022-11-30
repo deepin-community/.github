@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/xfce4-setting/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/xfce4-settings/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-timers-browserify/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-timers-browserify/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

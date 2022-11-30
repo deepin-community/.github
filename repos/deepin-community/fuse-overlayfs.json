@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fuse-overlayf/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fuse-overlayfs/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/qlcipher/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sqlcipher/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

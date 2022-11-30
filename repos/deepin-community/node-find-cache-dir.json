@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-find-cache-dir/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-find-cache-dir/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

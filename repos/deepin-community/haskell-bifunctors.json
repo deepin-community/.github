@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-bifunctor/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-bifunctors/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

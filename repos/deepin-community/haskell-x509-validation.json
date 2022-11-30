@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-x509-validati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-x509-validation/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

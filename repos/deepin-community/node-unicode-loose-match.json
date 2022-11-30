@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-unicode-loose-match/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-unicode-loose-match/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

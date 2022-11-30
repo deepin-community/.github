@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/umcodec/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/numcodecs/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

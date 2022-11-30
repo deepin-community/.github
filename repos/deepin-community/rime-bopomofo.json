@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/rime-bopomof/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/rime-bopomofo/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/gnome-online-account/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/gnome-online-accounts/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

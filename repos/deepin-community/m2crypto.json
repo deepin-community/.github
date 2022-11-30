@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/m2crypt/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/m2crypto/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

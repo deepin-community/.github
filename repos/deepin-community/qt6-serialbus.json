@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/qt6-serialbu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/qt6-serialbus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-unicode-property-value-aliase/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-unicode-property-value-aliases/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

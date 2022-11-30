@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-tasty-golde/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-tasty-golden/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

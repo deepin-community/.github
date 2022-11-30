@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penjdk-11/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openjdk-11/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

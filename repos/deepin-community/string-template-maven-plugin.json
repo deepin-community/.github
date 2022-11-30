@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/tring-template-maven-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/string-template-maven-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

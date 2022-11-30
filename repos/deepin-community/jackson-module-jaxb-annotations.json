@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ackson-module-jaxb-annotati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jackson-module-jaxb-annotations/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

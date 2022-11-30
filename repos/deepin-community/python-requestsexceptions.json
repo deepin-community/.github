@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/python-requestsexcepti/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/python-requestsexceptions/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

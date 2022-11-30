@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-typedarray-to-buffer/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-typedarray-to-buffer/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

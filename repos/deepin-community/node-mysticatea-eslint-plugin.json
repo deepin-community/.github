@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-mysticatea-eslint-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-mysticatea-eslint-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/rhi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/rhino/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

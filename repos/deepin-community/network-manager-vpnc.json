@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/etwork-manager-vpnc/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/network-manager-vpnc/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eetaface-pose-estimati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/seetaface-pose-estimation/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

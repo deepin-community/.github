@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-dagre-d3-renderer/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-dagre-d3-renderer/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

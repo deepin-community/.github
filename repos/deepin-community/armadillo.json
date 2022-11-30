@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/armadill/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/armadillo/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

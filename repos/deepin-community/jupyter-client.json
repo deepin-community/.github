@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/upyter-client/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/jupyter-client/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

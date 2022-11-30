@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/et-luminis-build-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/net-luminis-build-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

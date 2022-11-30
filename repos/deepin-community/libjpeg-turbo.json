@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libjpeg-turb/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libjpeg-turbo/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

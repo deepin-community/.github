@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/redland-binding/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/redland-bindings/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/qt6-imageformat/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/qt6-imageformats/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

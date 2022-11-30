@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libretro-core-inf/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libretro-core-info/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

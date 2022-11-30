@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/dbus-cplusplu/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/dbus-cplusplus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

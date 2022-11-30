@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/polyglot-mave/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/polyglot-maven/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

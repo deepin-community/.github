@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-unordered-container/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-unordered-containers/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

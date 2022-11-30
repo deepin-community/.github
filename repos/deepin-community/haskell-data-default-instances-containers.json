@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-data-default-instances-container/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-data-default-instances-containers/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

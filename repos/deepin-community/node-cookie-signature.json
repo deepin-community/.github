@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-cookie-signature/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-cookie-signature/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

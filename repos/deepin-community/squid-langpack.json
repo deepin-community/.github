@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/quid-langpack/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/squid-langpack/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

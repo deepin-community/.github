@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-mute-stream/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-mute-stream/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ava-comment-preprocessor/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/java-comment-preprocessor/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

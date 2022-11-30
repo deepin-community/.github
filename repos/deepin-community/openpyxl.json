@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penpyxl/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openpyxl/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

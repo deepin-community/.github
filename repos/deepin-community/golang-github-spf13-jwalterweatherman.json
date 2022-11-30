@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-github-spf13-jwalterweatherma/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-github-spf13-jwalterweatherman/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

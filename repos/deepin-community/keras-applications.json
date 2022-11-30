@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/keras-applicati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/keras-applications/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

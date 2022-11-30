@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/perl-openssl-default/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/perl-openssl-defaults/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

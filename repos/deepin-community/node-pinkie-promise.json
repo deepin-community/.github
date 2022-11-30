@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-pinkie-promise/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-pinkie-promise/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

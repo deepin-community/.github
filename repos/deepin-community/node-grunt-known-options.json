@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-grunt-known-opti/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-grunt-known-options/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/qt6-sensor/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/qt6-sensors/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

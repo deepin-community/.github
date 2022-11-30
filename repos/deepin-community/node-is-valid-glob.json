@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-is-valid-glob/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-is-valid-glob/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

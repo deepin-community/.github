@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-hspec-expectati/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-hspec-expectations/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

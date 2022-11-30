@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/trip-nondeterminism/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/strip-nondeterminism/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

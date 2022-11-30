@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/qt6-shadertool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/qt6-shadertools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

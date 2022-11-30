@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pencv-mobile/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/opencv-mobile/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

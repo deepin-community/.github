@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-webassembly/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-webassemblyjs/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

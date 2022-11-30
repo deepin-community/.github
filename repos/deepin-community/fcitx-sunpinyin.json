@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fcitx-sunpinyi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fcitx-sunpinyin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

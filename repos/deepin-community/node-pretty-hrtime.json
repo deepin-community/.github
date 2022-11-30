@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-pretty-hrtime/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-pretty-hrtime/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/elinux-pyth/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/selinux-python/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

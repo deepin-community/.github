@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/freebsd-buildutil/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/freebsd-buildutils/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

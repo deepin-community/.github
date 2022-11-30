@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pkg-php-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pkg-php-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

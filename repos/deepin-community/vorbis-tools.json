@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/vorbis-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/vorbis-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

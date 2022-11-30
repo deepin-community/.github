@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/qlparse/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sqlparse/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-unbounded-delay/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-unbounded-delays/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

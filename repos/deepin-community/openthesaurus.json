@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penthesauru/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openthesaurus/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

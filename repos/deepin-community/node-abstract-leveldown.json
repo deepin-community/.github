@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-abstract-leveldow/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-abstract-leveldown/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

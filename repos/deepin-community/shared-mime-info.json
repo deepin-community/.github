@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/hared-mime-inf/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/shared-mime-info/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

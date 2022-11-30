@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-vinyl/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-vinyl/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ignverify-g/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/signverify-go/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

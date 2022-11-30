@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/haskell-extensible-excepti/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/haskell-extensible-exceptions/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

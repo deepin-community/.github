@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-minimalistic-crypto-util/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-minimalistic-crypto-utils/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

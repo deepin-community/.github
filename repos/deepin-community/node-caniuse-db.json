@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-caniuse-db/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-caniuse-db/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

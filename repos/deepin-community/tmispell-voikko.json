@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/tmispell-voikk/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/tmispell-voikko/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

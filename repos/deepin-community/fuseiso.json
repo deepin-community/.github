@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fusei/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fuseiso/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

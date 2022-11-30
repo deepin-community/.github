@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/chroedinger-maeparser/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/schroedinger-maeparser/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

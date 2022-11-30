@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pawn-fcgi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/spawn-fcgi/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

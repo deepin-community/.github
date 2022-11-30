@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/tcp-wrapper/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/tcp-wrappers/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

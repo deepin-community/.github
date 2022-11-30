@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libatomic-op/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libatomic-ops/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

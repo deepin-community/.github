@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libnss-extrauser/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libnss-extrausers/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

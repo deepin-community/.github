@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/lxc-template/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/lxc-templates/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

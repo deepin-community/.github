@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/freehep-i/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/freehep-io/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

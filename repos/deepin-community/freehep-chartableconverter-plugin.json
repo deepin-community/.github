@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/freehep-chartableconverter-plugi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/freehep-chartableconverter-plugin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

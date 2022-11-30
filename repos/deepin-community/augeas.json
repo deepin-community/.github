@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/augea/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/augeas/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

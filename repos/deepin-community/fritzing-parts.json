@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/fritzing-part/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/fritzing-parts/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pymong/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pymongo/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-fb/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-fbjs/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

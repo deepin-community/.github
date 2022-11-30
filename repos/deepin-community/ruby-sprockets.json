@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-sprocket/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-sprockets/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

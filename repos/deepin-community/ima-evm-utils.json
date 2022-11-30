@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ima-evm-util/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ima-evm-utils/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

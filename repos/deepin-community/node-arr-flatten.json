@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-arr-flatte/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-arr-flatten/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

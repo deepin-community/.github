@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libvisi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libvisio/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

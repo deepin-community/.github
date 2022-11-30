@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libvert/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libverto/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

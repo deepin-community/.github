@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/at4/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/sat4j/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

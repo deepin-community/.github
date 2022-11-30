@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-async-proce/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-async-process/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

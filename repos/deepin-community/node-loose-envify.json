@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-loose-envify/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-loose-envify/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/appy-java/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/snappy-java/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

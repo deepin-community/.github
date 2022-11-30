@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-unicode-match-property-value-ecmascript/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-unicode-match-property-value-ecmascript/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

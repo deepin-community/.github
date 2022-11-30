@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/python-pallets-sphinx-theme/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/python-pallets-sphinx-themes/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

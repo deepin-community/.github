@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-detect-newline/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-detect-newline/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

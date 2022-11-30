@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/i2c-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/i2c-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

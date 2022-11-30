@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pybtex-docutil/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/pybtex-docutils/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

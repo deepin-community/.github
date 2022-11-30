@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-ip-regex/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-ip-regex/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

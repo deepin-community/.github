@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/rime-combo-pinyi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/rime-combo-pinyin/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

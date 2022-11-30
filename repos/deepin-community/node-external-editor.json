@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-external-editor/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-external-editor/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

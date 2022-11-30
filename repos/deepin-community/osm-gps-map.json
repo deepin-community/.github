@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/m-gps-map/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/osm-gps-map/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

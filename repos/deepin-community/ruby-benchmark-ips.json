@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-benchmark-ip/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-benchmark-ips/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

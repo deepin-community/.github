@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-create-ecdh/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-create-ecdh/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

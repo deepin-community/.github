@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eetaface-tenni/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/seetaface-tennis/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

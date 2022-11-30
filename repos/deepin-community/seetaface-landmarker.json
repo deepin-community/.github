@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/eetaface-landmarker/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/seetaface-landmarker/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

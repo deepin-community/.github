@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-prop-type/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-prop-types/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

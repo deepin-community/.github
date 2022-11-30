@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-github-cheekybits-i/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-github-cheekybits-is/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

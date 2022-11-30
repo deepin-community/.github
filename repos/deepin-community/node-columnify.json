@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-columnify/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-columnify/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

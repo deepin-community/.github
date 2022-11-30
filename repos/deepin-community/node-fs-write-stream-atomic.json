@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-fs-write-stream-atomic/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-fs-write-stream-atomic/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

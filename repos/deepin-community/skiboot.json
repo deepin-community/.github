@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/kiboot/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/skiboot/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-spdx-license-id/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-spdx-license-ids/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

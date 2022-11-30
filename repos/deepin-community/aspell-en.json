@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/aspell-e/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/aspell-en/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

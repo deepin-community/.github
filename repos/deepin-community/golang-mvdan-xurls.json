@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/golang-mvdan-xurl/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/golang-mvdan-xurls/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

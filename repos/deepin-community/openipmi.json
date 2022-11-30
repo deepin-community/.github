@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penipmi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openipmi/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

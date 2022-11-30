@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-to-fast-propertie/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-to-fast-properties/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

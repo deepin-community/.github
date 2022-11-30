@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/penstack-pkg-tool/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/openstack-pkg-tools/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

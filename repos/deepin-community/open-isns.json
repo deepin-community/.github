@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/pen-i/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/open-isns/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

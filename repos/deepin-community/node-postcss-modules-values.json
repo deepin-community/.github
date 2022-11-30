@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-postcss-modules-value/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-postcss-modules-values/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

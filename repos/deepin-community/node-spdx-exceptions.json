@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/de-spdx-excepti/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/node-spdx-exceptions/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

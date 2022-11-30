@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ruby-minitest-hook/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/ruby-minitest-hooks/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

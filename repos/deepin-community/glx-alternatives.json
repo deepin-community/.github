@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/glx-alternative/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/glx-alternatives/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

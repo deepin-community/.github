@@ -21,7 +21,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/ignon-kwallet-extensi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/signon-kwallet-extension/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

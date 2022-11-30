@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/libvorbi/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/libvorbis/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [

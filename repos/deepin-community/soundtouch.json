@@ -7,7 +7,7 @@
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
     ],
-    "dest": "deepin-community/undtouch/.github/workflows/call-clacheck.yml"
+    "dest": "deepin-community/soundtouch/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [
