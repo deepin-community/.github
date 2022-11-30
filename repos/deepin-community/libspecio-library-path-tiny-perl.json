@@ -20,7 +20,8 @@
     "src": "workflow-templates/call-clacheck.yml",
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
-    ]
+    ],
+    "dest": "deepin-community/libspecio-library-path-tiny-perl/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

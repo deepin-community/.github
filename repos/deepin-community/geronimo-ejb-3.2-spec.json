@@ -20,7 +20,8 @@
     "src": "workflow-templates/call-clacheck.yml",
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
-    ]
+    ],
+    "dest": "deepin-community/geronimo-ejb-3.2-spec/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [
