@@ -20,7 +20,8 @@
     "src": "workflow-templates/call-clacheck.yml",
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
-    ]
+    ],
+    "dest": "deepin-community/pfb2t1c2pfb/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

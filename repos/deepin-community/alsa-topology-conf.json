@@ -20,7 +20,8 @@
     "src": "workflow-templates/call-clacheck.yml",
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
-    ]
+    ],
+    "dest": "deepin-community/alsa-topology-conf/.github/workflows/call-clacheck.yml"
   },
   {
     "branch": [

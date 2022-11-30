@@ -6,7 +6,8 @@
     "src": "workflow-templates/call-clacheck.yml",
     "deletelist": [
       ".github/workflows/call-clacheck.yml"
-    ]
+    ],
+    "dest": "deepin-community/golang-github-hashicorp-go-sockaddr/.github/workflows/call-clacheck.yml"
   },
   {
     "branches": [
