@@ -18,7 +18,9 @@
       "master"
     ],
     "src": "workflow-templates/call-clacheck.yml",
-    "dest": "deepin-community/gimp/.github/workflows/call-clacheck.yml"
+    "deletelist": [
+      ".github/workflows/call-clacheck.yml"
+    ]
   },
   {
     "branch": [
