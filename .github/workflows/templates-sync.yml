@@ -2,9 +2,9 @@ name: Workflow templates sync
 on:
   push:
     paths:
-      - ".github/workflows/templates-sync.yml"
       - "repos/**.json"
       - "workflow-templates/**.yml"
+      - ".github/workflows/templates-sync.yml"
   workflow_dispatch:
 
 concurrency:
@@ -17,28 +17,6 @@ jobs:
     if: github.repository == 'deepin-community/.github' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      # Incremental sync when config changed
-      - name: Get changed configs
-        id: changed-configs
-        uses: tj-actions/changed-files@v32
-        with:
-          separator: " "
-          files: |
-            repos/deepin-community/*.json
-      # Full sync when file changed or workflow_dispatch event
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v32
-        with:
-          separator: " "
-          files: |
-            workflow-templates/*.yml
-            .github/workflows/templates-sync.yml
-
       # Install ssh key and known_hosts
       - name: Git config
         env:
@@ -53,24 +31,39 @@ jobs:
           git config --global user.email deepin-community-bot@blumia.net
           git config --global filter.lfs.smudge "git-lfs smudge --skip -- %f"
           git config --global filter.lfs.process "git-lfs filter-process --skip"
-
-      - name: Sync changed configs
-        uses: linuxdeepin/action-sync@main
-        if: steps.changed-configs.outputs.any_changed == 'true'
+      # Clone Repository
+      - uses: actions/checkout@v3
         with:
-          files: "${{ steps.changed-configs.outputs.all_changed_files }}"
-          message: "chore: Sync by ${{ github.event.head_commit.url }}"
-
+          fetch-depth: 0
+      # Incremental sync when config changed
+      - name: Check changed configs
+        id: changed-configs
+        uses: tj-actions/changed-files@v35.4.0
+        with:
+          separator: " "
+          files: repos/deepin-community/*.json
+          write_output_files: true
+      - name: Get changed configs
+        if: steps.changed-configs.outputs.any_changed == 'true'
+        run: |
+          mv .github/outputs/all_changed_files.txt /tmp/template_sync_config.list
+      # Full sync when file changed or workflow_dispatch event
+      - name: Check changed workflow
+        id: changed-workflow
+        uses: tj-actions/changed-files@v35.4.0
+        with:
+          separator: " "
+          files: |
+            workflow-templates/**.yml
+            .github/workflows/templates-sync.yml
       - name: Get all configs
         id: all-configs
-        if: steps.changed-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
+        if: steps.changed-workflow.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          all_configs=`find repos -type f | grep json | xargs`
-          echo all configs $all_configs
-          echo "::set-output name=ALL_CONFIGS::$all_configs"
-      - name: Sync all files
+          find repos -type f | grep json | xargs > /tmp/template_sync_config.list
+      # Run sync action
+      - name: Sync files
         uses: linuxdeepin/action-sync@main
-        if: steps.changed-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
         with:
-          files: "${{ steps.all-configs.outputs.ALL_CONFIGS }}"
+          files-from: /tmp/template_sync_config.list
           message: "chore: Sync by ${{ github.event.head_commit.url }}"
