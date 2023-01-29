@@ -12,7 +12,6 @@ excludeRepo = [
     "deepin-overlay",
     "repo",
     "dde-repo-rebuild",
-    "repo",
     "deepin-dde-repo",
     'deepin-dde-deps-repo',
     "create-tag",
