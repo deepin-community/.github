@@ -93,7 +93,7 @@ def getRepos(repo_type="public", size=100):
         page +=1
         for repo in res:
             repo = repo.get("name")
-            if (repo not in excludeRepo) and not repo.startswith("sig-"):
+            if (repo not in excludeRepo) and not repo.startswith("sig-") and not repo.startswith("website-"):
                 repos.append(repo)
         if len(res) != size: break # request less page size, which means get latest page
     return repos
@@ -103,9 +103,10 @@ def update(repo, workflows):
     repo_path_prefix = "repos/" + ORG + "/"
     repo_path = repo_path_prefix + repo + ".json"
     if os.path.exists(repo_path):
-        with open(repo_path, "r") as f:
-            data = json.load(f)
-            repo = repo_workflow(repo, data)
+        return
+        # with open(repo_path, "r") as f:
+        #     data = json.load(f)
+        #     repo = repo_workflow(repo, data)
     else:
         repo = repo_workflow(repo)
     repo.add_workflow(workflows)
