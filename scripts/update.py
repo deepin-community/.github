@@ -93,7 +93,7 @@ def getRepos(repo_type="public", size=100):
         page +=1
         for repo in res:
             repo = repo.get("name")
-            if (repo not in excludeRepo) and not repo.startswith("sig-") and not repo.startswith("website-"):
+            if (repo not in excludeRepo) and not repo.startswith("sig-") and not repo.startswith("."):
                 repos.append(repo)
         if len(res) != size: break # request less page size, which means get latest page
     return repos
