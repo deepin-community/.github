@@ -1,0 +1,50 @@
+name: code check cap
+on:
+  workflow_call:
+    inputs:
+      ref:
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      ref:
+        required: true
+        type: string
+
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+jobs:
+  cap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ inputs.ref }}
+
+      - name: code check cap
+        id: cap-output
+        run: |
+          sudo apt install -y git
+          echo "code checking cap"
+          mkdir ../diff
+          git show > ../diff/diff
+          cd ../diff/
+          cap_num=$(grep -En "\\s*[s|g]etcap\\s*" diff | wc -l || true)
+          if [ "$cap_num" != "0"];then
+            echo "found cap changes, need review"
+            echo "reviewer=CapReviewer" >> $GITHUB_OUTPUT
+          else
+            echo "reviewer=AUTO" >> $GITHUB_OUTPUT
+          fi
+
+  cap/review:
+    need: cap
+    runs-on: ubuntu-latest
+    environment: ${{ steps.cap-output.outputs.reviewer }}
+    steps:
+      - name: Handle cap review status
+        #TODO: Use the github project to count the review results of the cap?
+        shell: |
+          "echo cap changes reviewed by ${{ steps.cap-output.outputs }}."
