@@ -1,0 +1,17 @@
+name: Call code-check
+on:
+  pull_request_target:
+    paths-ignore:
+      - ".github/workflows/**"
+    types: [ opened, closed, synchronize ]
+
+concurrency:
+  group: ${{ github.workflow }}-pull/${{ github.event.number }}
+  cancel-in-progress: true
+
+jobs:
+  code:
+    if: github.event.action != 'closed'
+    uses: deepin-community/.github/.github/workflows/check-code.yml@master
+    with:
+      ref: ${{ github.event.pull_request.head.sha }}
