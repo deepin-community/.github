@@ -14,6 +14,9 @@
       "master"
     ],
     "src": "workflow-templates/call-build-deb.yml",
+    "deletelist": [
+      ".github/workflows/call-build-deb.yml"
+    ],
     "dest": "deepin-community/grep/.github/workflows/call-build-deb.yml"
   },
   {
@@ -28,6 +31,9 @@
       "master"
     ],
     "src": "workflow-templates/call-build-deb.yml",
+    "deletelist": [
+      ".github/workflows/call-build-deb.yml"
+    ],
     "dest": "deepin-community/grep/.github/workflows/call-build-deb.yml"
   },
   {
@@ -42,6 +48,9 @@
       "master"
     ],
     "src": "workflow-templates/call-build-tag.yml",
+    "deletelist": [
+      ".github/workflows/call-build-tag.yml"
+    ],
     "dest": "deepin-community/grep/.github/workflows/call-build-tag.yml"
   },
   {
