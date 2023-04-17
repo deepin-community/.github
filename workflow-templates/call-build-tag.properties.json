@@ -1,4 +1,0 @@
-{
-  "name": "Call build-tag workflow",
-  "description": "When tagged call jenkins to build deb on this tag, and release it to unstable repo"
-}
