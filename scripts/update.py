@@ -40,7 +40,8 @@ excludeRepo = [
     "Repository-Integration",
     "deepin-riscv-board",
     "coding-quarter",
-    "deepin-riscv-board"
+    "deepin-riscv-board",
+    "deepin-riscv-kernel"
 ]
 
 api_url = "https://api.github.com/orgs/{ORG}/repos".format(ORG=ORG)
