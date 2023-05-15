@@ -38,7 +38,7 @@ jobs:
       # Incremental sync when config changed
       - name: Check changed configs
         id: changed-configs
-        uses: tj-actions/changed-files@v35.4.0
+        uses: tj-actions/changed-files@v35.9.2
         with:
           separator: " "
           files: repos/deepin-community/*.json
