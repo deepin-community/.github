@@ -321,7 +321,7 @@ jobs:
       - pr-info
     name: Try pr integration
     if: startsWith(github.event.comment.body, '/integrate')
-    uses: linuxdeepin/.github/.github/workflows/auto-integration-pr.yml@master
+    uses: deepin-community/.github/.github/workflows/auto-integration-pr.yml@master
     secrets: inherit
     with:
       integrationrepo: ${{ github.repository }}
