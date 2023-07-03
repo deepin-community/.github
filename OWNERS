@@ -1,0 +1,12 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+reviewers:
+- tsic404
+- myml
+- BLumia
+- xzl01
+- UTsweetyfish
+- zccrs
+approvers:
+- Zeno-sole
+- hudeng-go
