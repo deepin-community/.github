@@ -46,6 +46,7 @@ jobs:
       - name: Install depends for load scripts
         run: |
           npm install js-yaml
+          npm install shelljs
           npm install @octokit/rest
           npm install @octokit/auth-app
 
@@ -129,15 +130,18 @@ jobs:
             }
 
             // example: integrate V23-Beta dtk-v23-test
-            const nameGroup = comment_body.match(/\/integrate (\S+)/)
-            if (nameGroup && nameGroup.length > 1) {
-              milestone = nameGroup[1]
-              if (nameGroup.length > 2) {
-                topic = nameGroup[2]
-                // 带topic参数直接指定分支，保证后续多个项目同topic集成时一起修改intergration.yml
-                console.log("Use topic: ", topic, " to auto integrate")
-                auotintegrationbranch = "topic-auto-integration-" + topic
-              }
+            nameGroup = comment_body.split(" ")
+            if (nameGroup.length > 1) {
+              topic = nameGroup[1]
+              // 带topic参数直接指定分支，保证后续多个项目同topic集成时一起修改intergration.yml
+              console.log("Use topic: ", topic, " to auto integrate")
+              auotintegrationbranch = "topic-auto-integration-" + topic
+            }
+
+            // checkout the branch if it existed
+            const shell = require('shelljs')
+            if (shell.exec(`git checkout ${auotintegrationbranch}`).code !== 0) {
+              console.log(auotintegrationbranch, " not existed, use master branch")
             }
 
             // genarate integration.yml
@@ -145,7 +149,8 @@ jobs:
             const fs = require('fs')
 
             integrationContent = yaml.load(fs.readFileSync('integration.yml'), 'utf8')
-            integrationContent.message = "Integrated for " + milestone
+            // use pull request title as integration title
+            integrationContent.message = "${{ github.event.issue.title }} by ${{ github.event.issue.user.login }}@${{ github.repository }}"
             integrationContent.milestone = milestone
             if (topic != "undefined") {
               integrationContent.topic = topic
@@ -154,12 +159,18 @@ jobs:
             // add timestamp to integration
             integrationContent.timestamp = Date.now()
 
-            exampleindex = integrationContent.repos.map((item) => item.repo).indexOf("linuxdeepin/examplerepo")
+            // remove example integration item
+            console.log("repos: ", integrationContent.repos)
+            integrationContent.repos = integrationContent.repos.filter(item => item.repo != "linuxdeepin/examplerepo")
+            console.log("filter repos: ", integrationContent.repos)
             repoindex = integrationContent.repos.map((item) => item.repo).indexOf(integrationrepo)
-            if (topic != "undefined" && exampleindex < 0 && repoindex > 0) {
+            console.log("find repoindex: ", repoindex)
+            if (repoindex >= 0) {
+              console.log("update")
               integrationContent.repos[repoindex] = {repo: integrationrepo, order: 0, tagsha: tagsha}
             } else {
-              integrationContent.repos[0] = {repo: integrationrepo, order: 0, tagsha: tagsha}
+              console.log("push")
+              integrationContent.repos.push({repo: integrationrepo, order: 0, tagsha: tagsha})
             }
 
             fs.writeFile('integration.yml', yaml.dump(integrationContent, {
