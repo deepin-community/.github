@@ -108,6 +108,11 @@ jobs:
               }
             }
 
+      - name: use node@18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
       - name: install depends for load scripts
         if: |
           startsWith(github.event.comment.body, '/merge') || startsWith(github.event.comment.body, '/check')
