@@ -138,14 +138,14 @@ jobs:
             nameGroup = comment_body.split(" ")
             if (nameGroup.length > 1 && nameGroup[1] != "") {
               topic = nameGroup[1]
-              // 带topic参数直接指定分支，保证后续多个项目同topic集成时一起修改intergration.yml
+              // 带topic参数直接指定分支，保证后续多个项目同topic集成时一起修改integration.yml
               console.log("Use topic: ", topic, " to auto integrate")
               auotintegrationbranch = "topic-auto-integration-" + topic
             }
 
             // checkout the branch if it existed
             const shell = require('shelljs')
-            if (shell.exec(`git fetch origin ${auotintegrationbranch} && git checkout ${auotintegrationbranch}`).code !== 0) {
+            if (shell.exec(`git fetch origin ${auotintegrationbranch} && git checkout FETCH_HEAD integration.yml`).code !== 0) {
               console.log(auotintegrationbranch, " not existed, use master branch")
             }
 
@@ -186,6 +186,7 @@ jobs:
                 }
             });
 
+            console.log("finally repos: ", integrationContent.repos)
             console.log("finally auotintegrationbranch: " + auotintegrationbranch)
             core.setOutput('branch', auotintegrationbranch)
             core.setOutput('prnumber', context.issue.number)
@@ -193,6 +194,7 @@ jobs:
       - name: Remove node_modules dir
         run: |
           rm -rf node_modules package-lock.json package.json
+          git diff .
 
       - name: Create or update integration pr
         uses: peter-evans/create-pull-request@v4
