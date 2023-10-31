@@ -153,6 +153,35 @@ jobs:
         with:
           github-token: ${{ steps.get-token.outputs.app_token }}
           script: |
+            const BOT_NAME = "Deepin Obs Bot"
+            const COMMENT_HEAD = "**" + BOT_NAME + "**\n"
+            let BODY = "Starting find obs webhook event and retrigger!"
+
+            if ( context.issue.number != undefined ) {
+              const response = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number
+              })
+              const reg = new RegExp("\\*+" + BOT_NAME + "\\*+")
+              BotComment= response.data.find(comment => comment.body.match(reg))
+              if (BotComment) {
+                await github.rest.issues.updateComment({
+                    comment_id: BotComment.id,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    body: COMMENT_HEAD + BODY
+                })
+              } else {
+                await github.rest.issues.createComment({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    body: COMMENT_HEAD + BODY
+                })
+              }
+            }
+
             const { COMMENT_BODY } = process.env
             const checkNameGroup = COMMENT_BODY.match(/\/check (\S+)/)
 
@@ -220,7 +249,7 @@ jobs:
           github-token: ${{ steps.get-token.outputs.app_token }}
           script: |
             console.log("redeliveried failed, context.issue.number: ", context.issue.number)
-            const BOT_NAME = "Deepin CatGPT Bot"
+            const BOT_NAME = "Deepin Obs Bot"
             const COMMENT_HEAD = "**" + BOT_NAME + "**\n"
             let COMMENT_BODY = "Deepin redeliveried failed, need update or recreate pull request!!!"
 
