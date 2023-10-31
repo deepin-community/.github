@@ -168,7 +168,6 @@ jobs:
             if (obs_webhook_need_resend) {
               // deliveries obs webhook
               let maxWebhooks = 1000
-              let since = 0
               let retriggered = false
               for await (const WebhookDeliveriesResp of github.paginate.iterator(
                 github.rest.orgs.listWebhookDeliveries,
@@ -178,9 +177,7 @@ jobs:
                   per_page: 100,
                 },
                 (response, done) => {
-                  since += response.data.length;
-                  // 最大1000条webhook中查找
-                  if (retriggered || since >= maxWebhooks) {
+                  if (retriggered) {
                     done();
                   }
                   return response.data;
@@ -191,16 +188,24 @@ jobs:
                 for (var i = 0; i < WebhookDeliveriesResp.data.length; i++) {
                   let wh = WebhookDeliveriesResp.data[i]
                   // console.log("webhook event: ", wh.event, ", webhook repository_id: ", wh.repository_id)
-                  if (wh.event == 'pull_request' && wh.repository_id == ${{ github.repository_id }} && (wh.action == 'opened' || wh.action == 'synchronize')) {
-                    const resp = await github.rest.orgs.redeliverWebhookDelivery({
+                  if (wh.event == 'pull_request' && wh.repository_id == ${{ github.repository_id }} && (wh.action == 'opened' || wh.action == 'synchronize' || wh.action == 'reopened')) {
+                    // Get delivery payload and filter
+                    const resp = await github.rest.orgs.getWebhookDelivery({
                       org: context.repo.owner,
                       hook_id: process.env.HOOK_ID,
                       delivery_id: wh.id,
                     });
-                    console.log("redeliver webhook resp: ", resp)
-                    retriggered = true
-                    core.setOutput('retriggered', "true")
-                    return
+                    if (resp.data.number == context.issue.number) {
+                      const resp = await github.rest.orgs.redeliverWebhookDelivery({
+                        org: context.repo.owner,
+                        hook_id: process.env.HOOK_ID,
+                        delivery_id: wh.id,
+                      });
+                      console.log("redeliver webhook resp: ", resp)
+                      retriggered = true
+                      core.setOutput('retriggered', "true")
+                      return
+                    }
                   }
                 }
               }
@@ -210,7 +215,7 @@ jobs:
       - name: check obs comment
         uses: actions/github-script@v6
         if: |
-          startsWith(github.event.comment.body, '/check') && steps.check-obs.outputs.retriggered == 'false'
+          startsWith(github.event.comment.body, '/check obs') && steps.check-obs.outputs.retriggered == 'false'
         with:
           github-token: ${{ steps.get-token.outputs.app_token }}
           script: |
