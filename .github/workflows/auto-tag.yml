@@ -142,6 +142,13 @@ jobs:
               sha: data.sha
             })
 
+            // Create a release for tag
+            await github.rest.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: '${{ steps.get-version.outputs.TAG }}',
+            })
+
             // Add a reminder for needed rebase to PR in open state
             const BOT_NAME = "TAG Bot"
             const COMMENT_HEAD = "**" + BOT_NAME + "**\n\n"
