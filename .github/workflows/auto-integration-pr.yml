@@ -60,8 +60,9 @@ jobs:
         with:
           script: |
             global["fetch"] = fetch
-            const { Octokit } = require("@octokit/rest");
-            const { createAppAuth } = require("@octokit/auth-app");
+            // 使用 import 语句替换 require()
+            import { Octokit } from "@octokit/rest";
+            import { createAppAuth } from "@octokit/auth-app";
             const appOctokit = new Octokit({
               authStrategy: createAppAuth,
               auth: {
