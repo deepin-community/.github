@@ -7,7 +7,7 @@ on:
 
 jobs:
   backup-to-gitlab:
-    if: github.repository_owner == 'deepin-community'
+    if: false
     name: backup-to-gitlab
     runs-on: ubuntu-latest
     steps:
