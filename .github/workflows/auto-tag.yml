@@ -14,10 +14,11 @@ jobs:
   auto_tag:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           persist-credentials: false
+          allow-unsafe-pr-checkout: true
 
       - name: get changelog version
         id: get-version
@@ -149,7 +150,7 @@ jobs:
               tag_name: '${{ steps.get-version.outputs.TAG }}',
             })
 
-            // Add a reminder for needed rebase to PR in open state
+            // Add a reminder for needed rebase to PR open state
             const BOT_NAME = "TAG Bot"
             const COMMENT_HEAD = "**" + BOT_NAME + "**\n\n"
             const COMMENT_BODY = "New tag: ${{ steps.get-version.outputs.TAG }}\nDISTRIBUTION: ${{ steps.get-version.outputs.DISTRIBUTION }}\nSuggest: synchronizing this PR through rebase #" + context.issue.number
